@@ -13,8 +13,8 @@
   <div id="viewer"></div>
 
   <script>
-    // Use your Google Drive direct download link here
-    const book = ePub("https://drive.google.com/uc?export=download&id=1pzizfHT0-Cz2TUxAvcDnCud4QU8mK4Bz");
+    // Use the raw GitHub link with URL-encoded filename
+    const book = ePub("https://raw.githubusercontent.com/abdulla227/epub-viewer/main/CHAPTER%201%20(1).epub");
     const rendition = book.renderTo("viewer", { width: "100%", height: "100%" });
     rendition.display();
   </script>
